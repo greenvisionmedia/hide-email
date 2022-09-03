@@ -1,0 +1,2 @@
+# hide-email
+Obfuscates emails
