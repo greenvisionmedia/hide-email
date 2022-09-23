@@ -1,2 +1,2 @@
 # Email Obfuscator
-Edit 'site' attribute and paste where an email would go.
+Give a link block or <a> tag the id "gvm-he" and add data attributes data-user and data-site
