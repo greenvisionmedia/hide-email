@@ -4,6 +4,6 @@ emails.forEach((e) => {
     let site = e.dataset.site; 
     e.setAttribute('href', 'mailto:' + user + '@' + site);
     if (e.id=='gvm-he') {
-        e.innerHTML(user + '@' + site);
+        e.innerHTML = user + '@' + site;
     }
 });
