@@ -3,7 +3,7 @@ emails.forEach((e) => {
     let user = e.dataset.user;
     let site = e.dataset.site; 
     e.setAttribute('href', 'mailto:' + user + '@' + site);
-    if (e.id=='gvm-he') {
+    if (e.classList.comtains('gvm-he')) {
         e.innerHTML = user + '@' + site;
     }
 });
