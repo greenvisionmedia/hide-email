@@ -1,2 +1,4 @@
-# Email Obfuscator
-Give a link block or <a> tag the id "gvm-he" and add data attributes data-user and data-site
+# `hide-email`
+
+Obfuscate client emails from scrapers and bots
+[Docs page](greenvision.media/docs/scripting/#hide-email)
