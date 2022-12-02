@@ -2,8 +2,10 @@
  * gv-hide-email
  * Add a client's email to the html attributes of an inline element; the email will appear instead of whatever content you place in the element
  */
-{
+()=>{
     let emails = document.querySelectorAll('.gv-hide-email');
+
+    if(!emails) return;
 
     //The first data-user and data-site you set will populate the rest of the emails on the page, unless they're overriden
 
